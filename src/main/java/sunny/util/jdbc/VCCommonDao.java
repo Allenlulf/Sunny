@@ -21,7 +21,6 @@ public class VCCommonDao {
 		return getInstance(URL,USERNAME,PASSWORD);
 	}
 
-
 	public Statement getInstance(String uRL2, String uSERNAME2, String pASSWORD2) throws Exception {
 		Class.forName("com.mysql.jdbc.Driver");
 	    con=DriverManager.getConnection(uRL2, uSERNAME2, pASSWORD2);
